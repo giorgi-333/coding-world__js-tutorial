@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #333;
+    color: whitesmoke;
+    padding: 20px;
+}
+
+button {
+    cursor: pointer;
+    padding: 4px 15px;
+}
+
+#res {
+    padding: 4px 10px;
+}
+
+button {
+    padding: 5px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* notification  */
+
+.notification {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 420px;
+    padding: 10px;
+    background-color: #032a44;
+    color: white;
+    border-radius: 4px;
+    display: none;
+}
+
+.close {
+    user-select: none;
+    float: right;
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.close:hover {
+    color: rgb(190, 9, 9);
+}

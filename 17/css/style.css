@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #333;
+    color: whitesmoke;
+    padding: 20px;
+}
+
+button {
+    padding: 4px 15px;
+}
+
+#res {
+    padding: 4px 10px;
+}
+
+button {
+    cursor: pointer;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* timers */
