@@ -1,12 +1,22 @@
 
 
-const names = ["გიორგი","ნიკა","ლიკა","ქეთი"]
+const todoList = []
 
 
-names.forEach( (name,i)  => {
-    res.innerHTML += `${i}) ${name}<br>`
-} )
 
 
+function addToTodo() {
+    todoList.push(todoInput.value)
+    
+    res.innerHTML = ""
+
+    todoList.forEach((todo, i) => {
+        res.innerHTML += `${i+1}) ${todo}<br>`
+    })
+
+    todoList.length = 0
+    console.log(todoList)
+
+}
 
 
