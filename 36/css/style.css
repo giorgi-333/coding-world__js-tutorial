@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(44, 71, 176, 0.91);
+    color: whitesmoke;
+    padding: 20px;
+}
+
+/*  */
+
+.form > * {
+    display: block;
+    margin: 10px 0;
+}
+
