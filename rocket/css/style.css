@@ -30,7 +30,10 @@ img {
 @keyframes example {
     from {}
     to {
-        transform: translate(80vw, -80vh);
+        transform: translate(100vw, -100vh);
     }
   }
 
+  @keyframes identifier {
+    
+  }
