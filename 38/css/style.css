@@ -20,7 +20,7 @@ body {
     column-gap: 20px;
 }
 
-.cont img {
+.cont .col img {
     cursor: pointer;
     width: 100%;
     vertical-align: middle;
@@ -50,10 +50,8 @@ body {
 }
 
 #modal img {
-    width: 700px;
-    max-width: calc(100% - 80px);
+    max-width: calc(100% - 120px);
     max-height: 90%;
-    object-fit: contain;
 }
 
 
